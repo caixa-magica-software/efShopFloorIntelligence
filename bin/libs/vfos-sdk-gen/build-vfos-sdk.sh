@@ -26,7 +26,7 @@ sudo rm -rf *
 sudo chmod 777 -R /home/user/.config/
 cd ..
 echo "clone sdk repo"
-git clone https://mstavares@opensourceprojects.eu/git/p/vfos/oak/sdk/lib/code vfos-oak-sdk-lib-code
+git clone https://engagementhub.caixamagica.pt/virtual-factory-operating-system/open-applications-development-toolkit-vf-oak/software-development-kit.git vfos-oak-sdk-lib-code
 sudo mkdir -p /home/user/.config/insight-nodejs
 sudo touch /home/user/.config/insight-nodejs/insight-yo.json
 sudo chmod 777 -R /home/user/.config/

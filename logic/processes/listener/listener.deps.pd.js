@@ -1,0 +1,1 @@
+[{"productId":"3","name":"vfrelstorage","major":"1.2"},{"productId":"1","name":"messaging-pubsub","major":"1.0"}]

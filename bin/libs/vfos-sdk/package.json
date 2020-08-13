@@ -1,0 +1,14 @@
+{
+    "name": "vfos-sdk",
+    "scripts": {
+        "start": "node server.js",
+        "postinstall": "chmod +x script.sh && ./script.sh"
+    },
+    "dependencies": {
+        "ejs": "^2.3.4",
+        "request-promise-native": "1.0.5",
+        "amqplib": "^0.5.2",
+        "underscore": "^1.9.1",
+        "superagent": "^5.0.5"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "MESSAGING_PUBSUB": {
+    "SERVER_URL": "rabbitmq",
+    "TOKEN": "091023913982389"
+  },
+  "DATASTORAGE_RELATIONAL": {
+    "SERVER_URL": "http://reverse-proxy/vfrelstorage/vfos/rel/1.0.5",
+    "USER": "postgres",
+    "PASSWORD": "vfos",
+    "TOKEN": ""
+  },
+  "DATASTORAGE_NO_SQL": {
+    "SERVER_URL": "http://127.0.0.1:8083/vfos/rel/1.0.0/swagger-ui.html",
+    "USER": "postgres",
+    "PASSWORD": "vfos"
+  },
+  "DATASTORAGE_TIMESERIES": {
+    "SERVER_URL": "http://127.0.0.1:8083/vfos/rel/1.0.0/swagger-ui.html",
+    "USER": "postgres",
+    "PASSWORD": "vfos"
+  },
+  "DATASTORAGE_ONTOLOGIES": {
+    "SERVER_URL": "http://127.0.0.1:8083/vfos/rel/1.0.0/swagger-ui.html",
+    "USER": "postgres",
+    "PASSWORD": "vfos"
+  },
+  "ENABLER_FRAMEWORK": {
+    "ENABLERREGISTRY" : "http://reverse-proxy/efregistry",
+    "REQUESTHANDLER" : "http://reverse-proxy/efrequesthandler",
+    "USER": "",
+    "PASSWORD": ""
+  }
+}
