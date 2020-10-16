@@ -1,10 +1,11 @@
 # efShopFloorIntelligence
 eFactory Review Application
 
+```
 Data is available with machine1 and machine 2
 
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getHistoricalEvents
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getHistoricalEvents?machineId=machine2
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getHistoricalEvents
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getHistoricalEvents?machineId=machine2
 
 GET
 
@@ -73,8 +74,8 @@ GET
   ]
 }
 
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getHistoricalStatistics
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getHistoricalStatistics?machineId=machine1
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getHistoricalStatistics
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getHistoricalStatistics?machineId=machine1
 
 GET
 
@@ -113,8 +114,8 @@ GET
   }
 ]
 
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getProductionEvents
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getProductionEvents?machineId=machine1
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getProductionEvents
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getProductionEvents?machineId=machine1
 
 GET
 
@@ -172,8 +173,8 @@ GET
   ]
 }
 
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getTopFastest
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getTopFastest?machineId=machine2
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getTopFastest
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getTopFastest?machineId=machine2
 
 GET
 
@@ -198,8 +199,8 @@ GET
   }
 ]
 
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getTopSlowest
-https://efactory.caixamagica.pt/efshopfloorintelligence/api/getTopSlowest?machineId=machine2
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getTopSlowest
+https://efpf.caixamagica.pt/efshopfloorintelligence/api/getTopSlowest?machineId=machine2
 
 GET
 
@@ -223,5 +224,6 @@ GET
     "max": "00:00:58"
   }
 ]
+``
 
 
