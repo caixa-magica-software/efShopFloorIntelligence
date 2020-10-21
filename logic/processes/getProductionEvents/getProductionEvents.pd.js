@@ -167,11 +167,12 @@ function normalizeData(args, cbk) {
             machineId: inputs.machineId,
             productionEvents: inputs.list_of_rows.map(function(row) {
 	           return {
+	               machineId: row.machineid,
 	               timestamp: row.timestamp,
-                   event: row.event,
-                   batch: row.batch,
-                   productId: row.productid,
-                   productTypeCode: row.producttypecode
+	           	event: row.event,
+	           	batch: row.batch,
+	           	productId: row.productid,
+	           	productTypeCode: row.producttypecode
 	           };	
            })
         })
