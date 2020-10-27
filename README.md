@@ -1,5 +1,5 @@
 # efShopFloorIntelligence
-eFactory Review Application
+EFPF Review Application
 
 ```
 Data is available with machine1 and machine 2
