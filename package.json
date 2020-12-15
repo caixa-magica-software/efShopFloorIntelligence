@@ -8,6 +8,7 @@
     "async": "^2.6.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
     "express": "^4.16.3",
     "express-form-data": "^2.0.8",
     "express-validator": "^5.0.2",

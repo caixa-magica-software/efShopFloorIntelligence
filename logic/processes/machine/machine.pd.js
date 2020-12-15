@@ -22,13 +22,10 @@ function messageHandler(msg) {
 	console.log("> messageHandler: msg.content = \"" + msg.content.toString() + "\"");
 }
 
-//communications.registerPublicationReceiver(messageHandler);
-//communications.registerPrivateMessageReceiver(messageHandler);
-
 var event;
 const parts = ["A", "B", "C", "D", "E"];
 var partNumber;
-//const myTimer = setInterval(sendMessageViaMessage, (Math.floor(Math.random() * 40) + 20) * 1000);
+
 setTimeout(sendMessageViaMessage, (Math.floor(Math.random() * 40) + 20) * 1000)
 function sendMessageViaMessage() {
 	console.info('sending new messaging over topic ', domain);
@@ -38,7 +35,7 @@ function sendMessageViaMessage() {
 	console.log(event)
 	message = {
         "timestamp": moment(Date()).format('YYYY-MM-DD HH:mm:ss'),
-        "machineId": "machine1",
+        "machineId": "machine10",
         "productionEvent": {
             "event": event,
             "batch": "1245",

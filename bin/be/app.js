@@ -8,6 +8,8 @@ const formData = require("express-form-data");
 const expressValidator = require('express-validator');
 const recursiveReadSync = require('recursive-readdir-sync')
 const contains = require("string-contains")
+const cors = require('cors');
+
 
 var app = express();
 
@@ -21,6 +23,8 @@ const uploadOptions = {
   autoClean: true
 };
 
+// use it before all route definitions
+app.use(cors({origin: '*'}));
 app.listen(process.env.PORT || 4201);
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -40,7 +44,7 @@ app.use(formData.union());
 
 try {
   recursiveReadSync(path.join(path.normalize(__dirname), '../../logic/processes')).forEach(file => {
-    if (!contains(file, '.gitkeep') && !contains(file, '.deps')) {
+    if (!contains(file, '.gitkeep') && !contains(file, '.deps') && !contains(file, '.json')) {
         app.use('/api', require(file)(app));
     }
   });
